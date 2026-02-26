@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+3d/
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Outputs and generated files
+outputs/
+*.png
+
+# Models (large files, download separately)
+models/
+/mnt/
+
+# Environment
+.env
+.env.local
+*.log
