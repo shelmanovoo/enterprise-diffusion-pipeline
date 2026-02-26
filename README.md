@@ -89,9 +89,22 @@ uvicorn server-prd_1:app --host 0.0.0.0 --port 5001
 
 **Response:** PNG-изображение (`image/png`)
 
+**Пример curl:**
+```bash
+curl -X POST http://localhost:5001/generate \
+  -H "Content-Type: application/json" \
+  -d '{"prompt": "industrial robot, high detail, CAD style", "steps": 30, "width": 1024, "height": 1024}' \
+  --output generated.png
+```
+
 ### GET `/health`
 
 Проверка состояния сервера: device (CPU/CUDA), доступность CUDA, занятая VRAM.
+
+**Пример curl:**
+```bash
+curl http://localhost:5001/health
+```
 
 ---
 
