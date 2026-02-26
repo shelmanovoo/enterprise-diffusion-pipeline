@@ -96,6 +96,8 @@ curl -X POST http://localhost:5001/generate \
   -d '{"prompt": "industrial robot, high detail, CAD style", "steps": 30, "width": 1024, "height": 1024}' \
   --output generated.png
 ```
+![telegram-cloud-photo-size-2-5247019932321518541-y](https://github.com/user-attachments/assets/91b165f5-f903-4223-9c5d-a364b99388b6)
+
 
 ### GET `/health`
 
