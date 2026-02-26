@@ -98,6 +98,8 @@ curl -X POST http://localhost:5001/generate \
 ```
 ![telegram-cloud-photo-size-2-5247019932321518541-y](https://github.com/user-attachments/assets/91b165f5-f903-4223-9c5d-a364b99388b6)
 
+![telegram-cloud-photo-size-2-5251654979422984391-y](https://github.com/user-attachments/assets/f63988a8-591a-4b23-8e8e-15ad45cec370)
+
 
 ### GET `/health`
 
